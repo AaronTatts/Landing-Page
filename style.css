@@ -6,6 +6,12 @@ body {
     max-height: 100vh;
 }
 
+.header-hero {
+    background: #1f2937;
+    justify-content: center;
+    flex: 1;
+}
+
 header {
     background: #1f2937;
    
@@ -16,6 +22,7 @@ header {
     justify-content: space-between; 
     align-items: center; 
     padding: 20px 50px;
+    margin-bottom: 40px;
     text-wrap: nowrap;
   }
 
@@ -34,13 +41,80 @@ header {
     color: #f0f0f0
   }
 
+  main {
+    padding: 20px 50px;
+  }
+
   .hero {
+    display: flex;
+    flex: 1;
+    background: #1f2937;
+    margin-bottom: 40px;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+    
+  }
+
+  .hero-image {
+    
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  img {
+    width: 280px;
+    max-height: 100%;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background: #f0f0f0;
+    margin-top: 40px;
   }
+
+  .hero-text {
+    height: auto;
+    width: auto;
+    color: #f0f0f0;
+    text-align: left;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    text-wrap: wrap;
+  }
+
+  h1 {
+    
+    font-size: 48px;
+    text-align: center;
+    text-wrap: wrap;
+  }
+
+  h2 {
+    
+    font-size: 24px;
+    ;
+  }
+
+  button {
+    font: sans-serif;
+        display: inline-block;
+        font-weight: bold;
+        text-align: center;
+        padding: 12px 24px;
+        border: 1px solid #3e7ac4;
+        border-radius: 8px;
+        background: #65c7ff;
+        
+  }
+  
+    
   
       
   
