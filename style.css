@@ -126,30 +126,48 @@ header {
     flex: 1;
     gap: 20px;
     justify-content: center;
-    align-items: center;
-    position: relative;
-    
+    align-items: center; 
   }
 
     .services-text {
-        margin-top: 10px;
-        text-align: left;
-        text-wrap: wrap;
-        display:flex;
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 10px;
+        text-align: center;
+        gap: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background: #e5e7eb;
+        border-radius: 10px;
+        padding: 20px;
     }
 
-  .info img {
-    width: 100px;
-    height: 100px;
+  .info {
+
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
   }
+
+  .info > div {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    
+  }
+    .info img {
+    width:250px;
+    height: 250px;
+    display: flex;
+    gap: 50px;
+    }
+
+  
   
   .title {
     font-size: 36px;
