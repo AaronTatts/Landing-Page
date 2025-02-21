@@ -17,6 +17,7 @@ body {
 justify-content: space-between; 
 align-items: center; 
 padding: 15px 100px;
+border: red 2PX solid;
 
 }
 
@@ -38,4 +39,40 @@ text-wrap: nowrap;
 a {
   color:#f0f0f0 ;
   text-decoration: none;
+}
+
+.hero {
+  background-color: #1f2937;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0 auto;
+width: 100%;
+margin-bottom: 40px;
+text-wrap: wrap;
+border: red 2PX solid;
+
+}
+
+.hero-heading {
+  
+  width: 75%;
+  color:#f0f0f0;
+  font-size: 24px;
+  font-weight: bold;
+  text-wrap: wrap;
+  text-align: left;
+  border: red 2PX solid;
+}
+
+.hero-subheading {
+  color:#f0f0f0;
+  font-size: 18px;
+  text-wrap: wrap; 
+}
+
+.hero-cta {
+  color:#f0f0f0;
+  font-size: 18px;
+  text-wrap: wrap; 
 }
